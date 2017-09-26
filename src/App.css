@@ -1,0 +1,86 @@
+.App {
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+#App-header h1 {
+  font-size: 1.2em !important;
+  margin-left: 100px !important;
+  border-left: 1px solid rgba(255,255,255,0.3);
+  padding-left: 20px;
+}
+
+#logo-sing {
+    width: 56px;
+    height: 45px;
+    float: left;
+    position: absolute;
+    top: 50%;
+    margin-top: -22px;
+    left: 66px;
+}
+
+#mapa {
+  padding-left: 64px;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.containerPainelDeFerramentas {
+  overflow: visible !important;
+}
+
+.col_container {
+  display: flex;
+  width: 100%;
+  align-items: stretch;
+  height: 100%;
+}
+
+.containerPainelDeFerramentas.secondary .col_container {
+  flex-direction: row-reverse;
+}
+
+.col_3 {
+  background: #777;
+  width: 50px;
+  flex-shrink: 1;
+}
+
+.col_1 {
+  background: #f1f1f1;
+  flex-shrink: 1;
+  flex-grow: 1;
+  padding: 15px;
+}
+
+.col_3 button {
+  /*border-bottom: 1px solid rgba(255,255,255,0.1) !important;*/
+}
+.col_3 button:hover svg {
+  transform: scale(1.7);
+}
+
+.col_2 {
+  background: #444;
+  width: 15px;
+  overflow: hidden;
+}
+
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
